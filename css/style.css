@@ -38,10 +38,10 @@ nav a:hover{
 img{ 
     border: 2px solid gray; 
     margin: 10px; 
-    width: 200px;
+    padding: 20px;
+    width: 300px;
     height: auto;
     box-sizing: border-box;
-    padding: 10px;
     transition: 1s ease;
  }
 
@@ -56,6 +56,8 @@ img:hover, a:focus{
 /* Nth child: every other image has different box shadow*/
 img:hover:nth-child(2n) { 
     box-shadow: 20px 20px rgb(204, 205, 241); 
+    /* ****made border rounded just for this project**** */
+    border-radius: 100%;
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
@@ -73,9 +75,13 @@ img:hover:nth-child(2n) {
     transform: scale(1.2);
     transition: 1s ease;
     }
-/* ************** THIS IS NOT WORKING !!!********** */
-.about-me img { 
-    border:pink dotted 2px;
+/* about me styling */
+.about-me img{ 
+    padding: 20px 20px 60px 20px; 
+    background-color: #F8F0ED; 
+    box-shadow: inherit;
+    margin: 10px;
+    border: grey 2px dotted;
 }
 /* General Text Styling*/
  
